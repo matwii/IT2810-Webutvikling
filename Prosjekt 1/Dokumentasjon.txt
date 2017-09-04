@@ -1,0 +1,12 @@
+Jeg har laget en nettside over mine favoritt Final Fantasy spill. Jeg har vært massiv fan siden jeg var et barn og spillene vil alltid gjøre meg lykkelig. 
+
+Dokumentasjon til krav:
+1. Her er det brukt css for å legge til stil på html elementene, jeg viser til egen css fil for å se hvordan jeg har valgt å lage stilen min. Prøvde å legge til en egen font, den fungerte på Internet Explorer, men ikke chrome.
+Satt lenge å prøvde å få den til å vises på Chrome også, men måtte gi opp etterhvert, fonten som dukket opp på Chrome passet bra den også. 
+2. Brukte flexbox for å posisjonere elementene i headeren med å velge at de skulle plasseres på en rekke fra midten av. Brukte også flexbox for å gi like mye plass på bredden til beskrivelsen av spillet og youtube videoen.
+Jeg valgte også å bruke flex for å delegere plass til kontainere, hovedkontaineren min med beskrivelse og youtube video er omringet av to diver som har flex 1 og hovedkontaineren har flex 3 slik at den har tredobbelt så mye plass som
+sidene. Jeg måtte lese meg en del opp på dette da jeg ikke hadde brukt det før, men når man lærte seg det var det veldig kjekt. 
+3. Har brukt enkel jquery for å endre bilde, tekst og youtube video når man trykket på et av spillene i headeren. Har også brukt jquery for å lage en animasjons effekt når man trykker, slik at man får en mykere overgang.
+4. Fant et ikon av Final Fantasy logoen bare med initialene FF og brukte en favicon converter på nett for å lage denne, deretter importerte jeg den inn i html fila. 
+5. Har lagt ved et bilde som viser at html fila ble validert. 
+6. css fila er gen fil ved navn style.css og javascript fila er lagt ved navnet script.js
